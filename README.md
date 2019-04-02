@@ -1,1 +1,2 @@
- # JavaScript\n ## A practice of JavaScipt\n
+ # JavaScript
+ ## A practice of JavaScipt
