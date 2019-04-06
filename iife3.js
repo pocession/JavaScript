@@ -16,3 +16,14 @@ function printnum2() {
 }
 
 printnum2()
+
+console.log("The third function will print 0-4 at every 1 sec")
+
+// Show how to pass an variable to a function, and iterate it by using let
+console.log("The second function will print 0-4 at every 1 sec")
+function printnum3() {
+  for (let i = 0; i < 5; i++) { // use let here
+    setTimeout(function () { console.log(i)},1000*i)
+  }
+}
+printnum3()
