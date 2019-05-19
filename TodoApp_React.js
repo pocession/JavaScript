@@ -94,8 +94,4 @@ class Taskslist extends React.Component {
 }
 
 
-const Button = ({onClick}) => (
-  <button onClick = {onClick} type='button'>delete</button>
-)
-
 ReactDOM.render(<App />, document.getElementById("root"));

@@ -1,3 +1,5 @@
+// a sample code from cs50m
+
 import React from 'react';
 import { render } from 'react-dom';
 
