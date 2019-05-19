@@ -80,13 +80,15 @@ class Count extends React.Component {
     if (this.state.timertype === true) {
       this.setState({
         timertype: false,
-        min: 5
+        min: 5,
+        sec: '00'
       })
     }
     else {
       this.setState({
         timertype: true,
-        min: 25
+        min: 25,
+        sec: '00'
       })
     }
   }
